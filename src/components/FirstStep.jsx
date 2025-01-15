@@ -20,7 +20,9 @@ export const First = ({ currentStep, setCurrentStep }) => {
         <Input label="Last name" placeholder="Your last name" />
         <Input label="Username" placeholder="Your username" />
       </div>
-      <Continue label="Continue 1/3" nextPage={nextPage} />
+      <div className="absolute bottom-52 w-[418px] h-[44px] flex gap-2 ">
+        <Continue label="Continue 1/3" nextPage={nextPage} />
+      </div>
     </div>
   );
 };
